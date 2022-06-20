@@ -9,7 +9,7 @@
       }
     },
     "condition": {
-      "regexFilter": "[\\w\\W]+&F=([\\w\\W]+)",
+      "regexFilter": "[\\w\\W]+F=([\\w\\W]+\\.html?)",
       "resourceTypes": [
         "main_frame"
       ]

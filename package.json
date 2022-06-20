@@ -1,6 +1,6 @@
 {
   "name": "browser-extension-redirect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redirects to another page if URL of current tab matches a pattern. Extension (add-on) for Chromium browsers.",
   "main": "index.js",
   "private": true,
