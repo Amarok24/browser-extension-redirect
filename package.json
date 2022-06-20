@@ -1,0 +1,35 @@
+{
+  "name": "browser-extension-redirect",
+  "version": "1.0.0",
+  "description": "Redirects to another page if URL of current tab matches a pattern. Extension (add-on) for Chromium browsers.",
+  "main": "index.js",
+  "private": true,
+  "browser": true,
+  "scripts": {
+    "watch:esbuild": "esbuild src/main.ts --bundle --watch --sourcemap --keep-names --target=chrome102 --outdir=dist",
+    "prod:esbuild": "esbuild src/main.ts --bundle --minify --keep-names --target=chrome99,firefox99,ios14 --outdir=dist",
+    "check:tsc": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amarok24/browser-extension-redirect.git"
+  },
+  "keywords": [
+    "browser",
+    "extension",
+    "addon",
+    "chromium",
+    "chrome",
+    "url",
+    "redirect"
+  ],
+  "author": "Jan Prazak",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Amarok24/browser-extension-redirect/issues"
+  },
+  "homepage": "https://github.com/Amarok24/browser-extension-redirect#readme",
+  "dependencies": {
+    "esbuild": "^0.14.46"
+  }
+}

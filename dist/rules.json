@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://monsterjobs.eu/vorschau/?p=\\1"
+      }
+    },
+    "condition": {
+      "regexFilter": "[\\w\\W]+&F=([\\w\\W]+)",
+      "resourceTypes": [
+        "main_frame"
+      ]
+    }
+  }
+]

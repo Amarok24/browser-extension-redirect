@@ -1,0 +1,23 @@
+{
+  "name": "Preview Redirect",
+  "description": "Monster Preview link redirection",
+  "author": "Jan Prazak",
+  "homepage_url": "https://github.com/Amarok24",
+  "version": "1.0",
+  "manifest_version": 3,
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "host_permissions": [
+    "https://draft.monster.co.uk/"
+  ],
+  "permissions": [
+    "declarativeNetRequest"
+  ]
+}
