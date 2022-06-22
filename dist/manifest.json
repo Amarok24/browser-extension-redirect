@@ -1,9 +1,9 @@
 {
   "name": "Preview Redirect",
+  "version": "1.0.1",
   "description": "Monster Preview link redirection",
   "author": "Jan Prazak",
-  "homepage_url": "https://github.com/Amarok24",
-  "version": "1.0.1",
+  "homepage_url": "https://github.com/Amarok24/browser-extension-redirect",
   "manifest_version": 3,
   "declarative_net_request": {
     "rule_resources": [
