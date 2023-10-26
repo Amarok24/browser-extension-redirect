@@ -1,6 +1,6 @@
 {
-	"name": "Preview Redirect",
-	"description": "Monster Preview link redirection",
+	"name": "Redirect Demo",
+	"description": "link redirection demo",
 	"author": "Jan Prazak",
 	"homepage_url": "https://github.com/Amarok24",
 	"version": "1.0.2",
@@ -9,7 +9,7 @@
 		"declarativeNetRequest"
 	],
 	"host_permissions": [
-		"*://draft.monster.co.uk/*"
+		"*://yourdomain.com/*"
 	],
 	"declarative_net_request": {
 		"rule_resources": [
