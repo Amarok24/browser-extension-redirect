@@ -1,18 +1,16 @@
 [
-  {
-    "id": 1,
-    "priority": 1,
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "regexSubstitution": "https://monsterjobs.eu/vorschau/?p=\\1"
-      }
-    },
-    "condition": {
-      "regexFilter": "[\\w\\W]+F=([\\w\\W]+\\.html?)",
-      "resourceTypes": [
-        "main_frame"
-      ]
-    }
-  }
+	{
+		"id": 1,
+		"priority": 1,
+		"condition": {
+			"regexFilter": "[\\w\\W]+F=([\\w\\W]+\\.html?)",
+			"resourceTypes": ["main_frame"]
+		},
+		"action": {
+			"type": "redirect",
+			"redirect": {
+				"regexSubstitution": "https://NEWDOMAINHERE.eu/test/?p=\\1"
+			}
+		}
+	}
 ]
