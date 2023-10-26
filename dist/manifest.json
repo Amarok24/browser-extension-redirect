@@ -1,23 +1,23 @@
 {
-  "name": "Preview Redirect",
-  "version": "1.0.1",
-  "description": "Monster Preview link redirection",
-  "author": "Jan Prazak",
-  "homepage_url": "https://github.com/Amarok24/browser-extension-redirect",
-  "manifest_version": 3,
-  "declarative_net_request": {
-    "rule_resources": [
-      {
-        "id": "ruleset_1",
-        "enabled": true,
-        "path": "rules.json"
-      }
-    ]
-  },
-  "host_permissions": [
-    "https://draft.monster.co.uk/"
-  ],
-  "permissions": [
-    "declarativeNetRequest"
-  ]
+	"name": "Preview Redirect",
+	"description": "Monster Preview link redirection",
+	"author": "Jan Prazak",
+	"homepage_url": "https://github.com/Amarok24",
+	"version": "1.0.2",
+	"manifest_version": 3,
+	"permissions": [
+		"declarativeNetRequest"
+	],
+	"host_permissions": [
+		"*://draft.monster.co.uk/*"
+	],
+	"declarative_net_request": {
+		"rule_resources": [
+			{
+				"id": "ruleset_1",
+				"enabled": true,
+				"path": "rules.json"
+			}
+		]
+	}
 }
